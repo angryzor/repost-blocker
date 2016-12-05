@@ -1,0 +1,18 @@
+#rb-config-dialog {
+	width: 400px;
+	position: absolute;
+	z-index: 100;
+	background-color: rgb(230, 241, 255);
+	border: 1px solid rgb(95, 153, 207);
+	top: 19px;
+	right: 0px;
+	padding: 16px;
+}
+#rb-config-dialog.rb-hidden {
+	display: none;
+}
+
+#rb-config-dialog textarea {
+	width: 100%;
+}
+
