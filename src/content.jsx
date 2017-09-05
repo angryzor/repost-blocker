@@ -65,7 +65,7 @@ const initContentScript = () => {
 		statusBarContainer
 	)
 
-	// window.setInterval(() => scanPage(store), 5000)
+	setInterval(() => scanPage(store), 3000)
 	scanPage(store)
 }
 
